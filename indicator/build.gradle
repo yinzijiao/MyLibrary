@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 // 这个version是library的版本，更新后也需要更改这个值
-version = "0.0.2"
+version = "0.0.1"
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
@@ -86,7 +86,7 @@ bintray {
     pkg {
         //这个应该是传到maven的仓库的
         repo = "maven"
-        name = "yinzjlib"//发布的项目名字小写
+        name = "testlib"//发布的项目名字小写
         websiteUrl = 'https://github.com/yinzijiao/MyLibrary'//
         vcsUrl = 'https://github.com/yinzijiao/MyLibrary.git'//
         licenses = ["Apache-2.0"]
