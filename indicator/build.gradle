@@ -29,7 +29,7 @@ dependencies {
 }
 def siteUrl = 'https://github.com/yinzijiao/MyLibrary'// 项目的主页
 def gitUrl = 'https://github.com/yinzijiao/MyLibrary.git'// Git仓库的url
-group = "com.yinzj.xIndicator" // Maven Group ID for the artifact，
+group = "com.yinzj.indicator" // Maven Group ID for the artifact，
 install {
     repositories.mavenInstaller {
         pom {
@@ -86,7 +86,7 @@ bintray {
     pkg {
         //这个应该是传到maven的仓库的
         repo = "maven"
-        name = "yinzjtestlib"//发布的项目名字小写
+        name = "testlib"//发布的项目名字小写
         websiteUrl = 'https://github.com/yinzijiao/MyLibrary'//
         vcsUrl = 'https://github.com/yinzijiao/MyLibrary.git'//
         licenses = ["Apache-2.0"]
