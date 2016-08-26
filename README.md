@@ -1,5 +1,5 @@
 # MyLibrary
 
-gradlew install
+`gradlew install`
 
-gradlew bintrayUpload
+`gradlew bintrayUpload`
